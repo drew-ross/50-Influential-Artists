@@ -247,25 +247,16 @@ function removeArtist(arr, id) {
   arr.splice(id, 1);
 }
 
-// removeArtist(artists, 0);
-// console.log(artists);
-
   /**
 
 
-/* Task 5: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1900-1999) */
+/* Task 5: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1800-1900) */
 
-function get20s(arr){
-  result = [];
-  for (let i = 0; i < arr.length; i++) {
-    let born = arr[i].years.slice(0,4);
-    if (born >= 1900 && born <= 1999) {
-      result.push(arr[i].name);
-    }
+function get20s(/* Code here */){
+
+    /* Code here */
+
   }
-  return result;
-}
-console.log(get20s(artists));
 
 /* Task 6: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
