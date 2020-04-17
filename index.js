@@ -306,13 +306,17 @@ console.log(artists);
 
 /* Task 8: Create a function called `checkArtist` that accepts a string (name of an artist) and checks if that artist is in the dataset. */
 
-function checkArtist(/* Code here */){
-
-    /* Code here */
-
+function checkArtist(name, arr) {
+  let inSet = false;
+  for(let i = 0; i < arr.length; i++) {
+    if (arr[i].name === name) {
+      inSet = true;
+    }
   }
-
-
+  return inSet;
+}
+console.log(checkArtist('Gustav Klimt', artists));
+console.log(checkArtist('Michelangelo', artists));
 
 
 
