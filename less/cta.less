@@ -9,13 +9,12 @@
         .flex(center, center, column);
         color: white;
 
+        @media @tablet-size {
+            height: 30vh;
+        }
+
         button {
-            margin-top: 10px;
-            font-size: 2rem;
-            padding: 10px 30px;
-            color: @nav-color;
-            border-radius: 10px;
-            box-shadow: 0px 2px 5px rgb(54, 54, 54);
+            .button-style(@nav-color, white);
         }
     }
 }
