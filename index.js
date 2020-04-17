@@ -256,7 +256,7 @@ function removeArtist(arr, id) {
 /* Task 5: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1900-1999) */
 
 function get20s(arr){
-  result = [];
+  const result = [];
   for (let i = 0; i < arr.length; i++) {
     let born = arr[i].years.slice(0,4);
     if (born >= 1900 && born <= 1999) {
@@ -269,12 +269,16 @@ console.log(get20s(artists));
 
 /* Task 6: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
-function lotsOfArt(/* Code here */){
-
-    /* Code here */
-
+function lotsOfArt(arr){
+  const result = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].paintings > 100) {
+      result.push(arr[i].name);
+    }
   }
-
+  return result;
+}
+console.log(lotsOfArt(artists));
 
 /* Task 7: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
 
@@ -285,12 +289,20 @@ genre: Web Design,
 nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
-function addArtist(/* Code here */){
+function addArtist(arr, obj){
+  arr.push(obj);
+}
 
-    /* Code here */
-
-  }
-
+const me = {
+  id: 21,
+  name: 'Drew Ross',
+  years: '1992 - Current',
+  genre: 'Web Design',
+  nationality: 'USA',
+  bio: 'Lorem ipsum'
+}
+addArtist(artists, me);
+console.log(artists);
 
 /* Task 8: Create a function called `checkArtist` that accepts a string (name of an artist) and checks if that artist is in the dataset. */
 
