@@ -130,6 +130,37 @@ header nav ul span {
   color: #292929;
   font-size: 2.2rem;
 }
+.artists-container {
+  width: 100%;
+  margin: 0 auto 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.artists-container .artist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 40%;
+  margin: 0 20px;
+}
+.artists-container .artist img {
+  max-width: 70%;
+  max-height: 350px;
+  border-radius: 10px;
+}
+.artists-container .artist a {
+  margin: 20px 0;
+  text-decoration: none;
+  color: #292929;
+  font-size: 2rem;
+}
+.artists-container .artist p {
+  color: #292929;
+  font-size: 1.5rem;
+}
 .title-container .container {
   margin: 0 auto;
   background-image: url('/assets/home.png');
@@ -146,7 +177,11 @@ header nav ul span {
   margin-top: 10px;
   font-size: 2rem;
   padding: 10px 30px;
+  color: #292929;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px #363636;
 }
 hr {
-  size: 30;
+  margin: 40px 0;
+  border-top: 3px solid #bdbdbd;
 }
