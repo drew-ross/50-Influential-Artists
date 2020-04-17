@@ -25,10 +25,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. How would you describe preprocessing to someone new to CSS?
+
+    A: Preprocessing is a way to automatically convert syntax from one that is easier to code with, to one that is readable by the computer. For example, A preprocessor can convert LESS, which is easier to write than CSS, into CSS, which the browser can actually read. This saves a lot of time and effort for developers.
+
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    A: My favorite concept in preprocessing is the ability to write easier code. The part that gives me the most trouble is keeping track of writing the correct syntax in LESS/CSS.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+    A: A variable is a container for some kind of information, such as a number, a string of letters, or a group of information. We can use a variable to "name" that information so we can refer to it when we program.
+
 4. What is the purpose of using functions in code?
+
+    A: functions are blocks of code that do something specific. We can reuse functions throughought our code so that we don't have to rewrite code. Functions can also be adapted to do different things depending on the information you give them.
+
 5. What is a JSON data?
+
+    A: JSON stands for JavaScript Object Notation. JSON is used for storing or transferring information that can be used by JavaScript, such as objects and arrays.
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -40,17 +54,17 @@ Follow these steps to set up your project:
 
 #### Git Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your Team Lead as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 
 #### Preprocessor Set up
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
-* [ ] In your project's root folder, run the following command `less-watch-compiler less css index.less`
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `body` selector to `red` in your `index.less` file.
-* [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
+* [X] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+* [X] In your project's root folder, run the following command `less-watch-compiler less css index.less`
+* [X] Verify your compiler is working correctly by changing the `background-color` on the `body` selector to `red` in your `index.less` file.
+* [X] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
 ### Task 2a:  Minimum Viable Product - PreProcessing
 
