@@ -95,7 +95,7 @@ _You will know everything is working properly when you see the styles enabled fo
 * [X] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
 * [X] Use at least 2 parameters to create your button
 * [X] Create a hover state that changes the opacity of images to 80%
-* [ ] Use good coding practices including adding responsive breakpoints to your code with media queries
+* [X] Use good coding practices including adding responsive breakpoints to your code with media queries
 
 ### Task 2b: Minimum Viable Product - JavaScript
 
