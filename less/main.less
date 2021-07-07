@@ -1,0 +1,36 @@
+.artists-container {
+    width: 100%;
+    margin: 0 auto 50px;
+    .flex(center, flex-start);
+
+    @media @tablet-size {
+        flex-direction: column;
+    }
+    .artist {
+        .flex(center, center, column);
+        width: 40%;
+        margin: 0 20px;
+        
+        @media @tablet-size {
+            width: 100%;
+            margin: 0 auto 30px;
+        }
+        img {
+            max-width: 70%;
+            max-height: 350px;
+            border-radius: 10px;
+        }
+
+        a {
+            margin: 20px 0;
+            text-decoration: none;
+            color: @nav-color;
+            font-size: 1.5rem;
+        }
+
+        p {
+            color: @nav-color;
+            font-size: 1rem;
+        }
+    }
+}

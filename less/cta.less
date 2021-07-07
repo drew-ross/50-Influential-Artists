@@ -1,0 +1,25 @@
+.title-container {
+    
+    .container {
+        margin: 0 auto;
+        background-image: url('/assets/home.png');
+        background-size: cover;
+        width: 80%;
+        height: 60vh;
+        .flex(center, center, column);
+        color: white;
+
+        @media @tablet-size {
+            height: 30vh;
+        }
+
+        button {
+            .button-style(@nav-color, white);
+        }
+    }
+}
+
+hr {
+    margin: 40px 0;
+    border-top: 3px solid rgb(189, 189, 189);
+}

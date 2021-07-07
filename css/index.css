@@ -1,4 +1,210 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.body-container {
+  width: 90%;
+  margin: 0 auto;
+}
+html {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+img:hover {
+  opacity: 0.8;
+}
+.current-page {
+  font-weight: bold;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0 50px 0;
+}
+header nav {
+  width: 300px;
+  margin: 0 auto;
+}
+header nav ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+header nav ul li a,
+header nav ul span {
+  text-decoration: none;
+  color: #292929;
+  font-size: 1.7rem;
+}
+.artists-container {
+  width: 100%;
+  margin: 0 auto 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media (max-width: 800px) {
+  .artists-container {
+    flex-direction: column;
+  }
+}
+.artists-container .artist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 0 20px;
+}
+@media (max-width: 800px) {
+  .artists-container .artist {
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+}
+.artists-container .artist img {
+  max-width: 70%;
+  max-height: 350px;
+  border-radius: 10px;
+}
+.artists-container .artist a {
+  margin: 20px 0;
+  text-decoration: none;
+  color: #292929;
+  font-size: 1.5rem;
+}
+.artists-container .artist p {
+  color: #292929;
+  font-size: 1rem;
+}
+.title-container .container {
+  margin: 0 auto;
+  background-image: url('/assets/home.png');
+  background-size: cover;
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+@media (max-width: 800px) {
+  .title-container .container {
+    height: 30vh;
+  }
+}
+.title-container .container button {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  padding: 10px 30px;
+  color: #292929;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px #363636;
+}
+hr {
+  margin: 40px 0;
+  border-top: 3px solid #bdbdbd;
+}
